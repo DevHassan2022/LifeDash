@@ -1,0 +1,1346 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+body,
+.epic-btn:active,
+.epic-btn,
+.clear-epic-btn,
+.neo-item > p.neo-name ,
+.neo-item a,
+.neo-item,
+.neo-item > h4,
+.neo-item > p,
+.fetch-neo-btn:active,
+.article-summary:hover,
+.wikipedia button:hover,
+.center-flex-wrap button:hover,
+.search-news-btn:active,
+.clear-news-btn:active  {
+    color: white;
+}
+
+body,
+.crypto > p,
+p.weather-city,
+p.weather-temp,
+.qr-heading,
+.qr-reader h2,
+.qr-reader p,
+.epic-subheading,
+.epic-heading,
+.neo-item > h4,
+.neo-item > p,
+.neo-subhead,
+.neo-header p,
+.neo-placeholder,
+.neo-section h1,
+.new-section p,
+.article-summary  {
+    margin: 0;
+}
+
+body,
+.crypto,
+.currency-converter,
+.dictionary-section,
+#news-section,
+.wiki-image,
+.wikipedia,
+.epic-header img,
+.epic,
+.neo-section img,
+.neo-section {
+    background-size: cover;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+}
+
+main,
+.dictionary-section,
+.word-result,
+.summary,
+.wikipedia,
+.epic-date,
+.epic-input,
+.neo-item,
+.neo-list,
+.neo-input-wrap,
+.neo-section {
+    flex-direction: column;
+}
+
+main,
+.top,
+.result,
+.crypto-top,
+.dictionary-section,
+ .center-div,
+ div#weather,
+.bottom,
+.word-result,
+.center-flex-wrap,
+.summary,
+.wikipedia,
+.epic-date,
+.epic-input,
+.epic-flex,
+.epic-header,
+.neo-item,
+.neo-header,
+.flex-wrap ,
+.neo-list,
+.neo-input-wrap,
+.neo-section,
+#loading,
+.qr-decode-result,
+.globe  {
+    display: flex;
+}
+
+main,
+.top,
+.bottom {
+    justify-content: space-between;
+}
+
+/* Crypto */
+.crypto,
+.news-input,
+.currency-converter,
+.dictionary-input {
+    padding: .5em;
+}
+
+.crypto {
+    font-size: 1.3rem;
+    height: fit-content;
+    text-shadow: 0 0 gold;
+}
+
+.crypto,
+.currency-converter,
+.dictionary-section,
+#news-section,
+.wikipedia,
+.epic-header img,
+.epic,
+.neo-section {
+    background-repeat: no-repeat;
+}
+
+.crypto-top,
+.qr-form label,
+.epic-date  {
+    margin-bottom: 5px;
+}
+
+.crypto-top,
+.result,
+.word-result,
+div#weather,
+.center-div,
+.dictionary-section,
+.word-result,
+.summary,
+.wikipedia,
+.epic-date,
+.epic-header,
+.neo-item,
+.neo-header,
+.neo-list,
+.neo-input-wrap,
+#loading,
+.qr-decode-result   {
+    align-items: center;
+}
+
+.crypto-top > span,
+.epic-input p,
+#epic-image a,
+.neo-section input {
+    margin-left: 10px;
+}
+
+/* Epic */
+.epic {
+    background: url('https://nesdis.noaa.gov/s3/styles/webp/s3/migrated/1694_DSCOVR_768.jpg.webp?itok=mHdQ2cLB');
+    width: 420px;
+    padding-bottom: 1em;
+}
+
+.epic-image {
+    padding-bottom: .5em;
+    background: rgba(255, 255, 255, .5);
+} 
+
+.epic-image span {
+   margin-left: 5px;
+   margin-right: -10px;
+}
+
+.epic-image,
+.bottom  {
+    margin-bottom: 10px;
+}
+
+.epic-btn:active {
+    transform:scale(.95);
+}
+
+.epic-heading {
+    font-size: 24px;
+}
+
+.epic-flex {
+    padding-left: .5em;
+}
+
+.clear-epic-btn {
+    margin-bottom: -35px;
+}
+
+.clear-epic-btn:active {
+    transform: scale(.75);
+}
+
+.epic-flex,
+.qr-decode-result {
+    height: 200px;
+}
+
+.epic-input p {
+    line-height: 1.3;
+}
+
+.epic-input p,
+.clear-result-btn {
+    width: 100px;
+}
+
+.epic-input input{
+    margin-top:50px;
+}
+
+.epic-date input {
+    opacity: .75;
+}
+
+/* NEO Section */
+.neo-section {
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGI0OWtlbmd0cWRwcDFldnhqMzZqaGpib2N1eGgwcWh4dHFicnVpbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gipB3YGhWp8Pk06hLD/giphy.gif');
+    height: 320px;
+    height: 400px;
+    gap: 2px;
+}
+
+.neo-section,
+.epic {
+    height: 425px;
+}
+
+.neo-section h1,
+.epic-header,
+.epic-btn:hover,
+.neo-section button:hover,
+.neo-section button:focus,
+.clear-epic-btn:hover,
+.clear-epic-btn:focus  {
+    color: #063C93;
+}
+
+.neo-section input {
+    opacity: .5;
+    width: 170px;
+}
+
+.neo-section input:hover,
+.neo-section input:focus,
+.epic-date input:hover,
+.epic-date input:focus {
+    opacity: 1;
+}
+
+.neo-section button {
+    width: 150px;
+}
+
+.neo-section button,
+#neo-section button:active {
+    color: #CFCFDE;
+}
+
+.neo-section button,
+.neo-subhead,
+#neo-section button:active {
+    background-color: #063C93;
+}
+
+.neo-list {
+    overflow: auto;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.75);
+    max-width: 300px;
+}
+
+.neo-list::-webkit-scrollbar {
+   background: #063C93;
+} 
+
+.neo-list::-webkit-scrollbar:hover {
+    background: white;
+}
+
+.neo-list::-webkit-scrollbar-thumb  {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.neo-list::-webkit-scrollbar-thumb:hover {
+    background-color: #063C93;
+}
+
+.neo-placeholder {
+    color: #424200;
+    text-shadow: 0 0 0px #424200;
+}
+
+.neo-placeholder,
+.neo-item > p.neo-name {
+    font-size: 14px;
+}
+
+.neo-placeholder,
+.epic-btn {
+    margin-left: 5px;
+}
+
+.neo-placeholder,
+.summary,
+.epic-heading {
+    line-height: 1.5;
+}
+
+#neo-section button:active {
+    transform: scale(0.75);
+}
+
+.neo-section img {
+    height: 100px;
+    background-position: bottom;
+    margin-right: 10px;
+}
+
+.neo-header {
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.neo-subhead {
+    margin-bottom: 25px;
+    margin-top:-5px;
+}
+
+.neo-item,
+.epic-input p,
+.epic-subheading,
+.epic-btn:active,
+.epic-btn,
+.clear-epic-btn {
+    background: #063C93;
+}
+
+.neo-item a:hover,
+.neo-item a:focus,
+span {
+    color: yellow;
+}
+
+.neo-item a:visited {
+    color: gray;
+}
+
+.neo-item > p.neo-name {
+    padding-bottom: 2px;
+    border-bottom: 2px double white;
+}
+
+span {
+    font-size: 19px;
+}
+
+/* Weather */
+div#weather {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+
+.loading {
+    margin-top: 30px;
+}
+
+div#weather > img {
+    width: 70px;
+}
+
+p.weather-city {
+    text-align: right;    
+}
+
+p.weather-city,
+.currency-subheading {
+    margin-top: -10px; 
+}
+
+p.weather-city,
+.news,
+.skeleton-line,
+.loading-skeleton,
+.epic-header,
+.epic-heading,
+.epic-image img,
+.neo-subhead {
+    width: 100%;
+}
+
+p.weather-city,
+.news-title {
+    font-size: 1.2rem;
+}
+
+p.weather-temp {
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
+
+/* ******* Center Div ******* */
+ .center-div {
+    margin-top: 2em;
+    height: 30%;
+}
+ 
+.center-flex-wrap,
+.bottom,
+.wikipedia,
+.epic-flex {
+    gap: 10px;
+}
+
+/* QR Code Generator/ Reader */
+.qr-result-container,
+.loading-skeleton,
+.qr-reader {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.qr-result-container,
+.qr-reader,
+.news-section {
+    justify-items: center;
+}
+
+.qr-result-container,
+.qr-reader,
+.news-section {
+    align-content: start;
+}
+
+.qr-result-container,
+.qr-reader,
+.neo-list {
+    gap: 15px;
+}
+
+.qr-img ,
+.epic-image,
+.neo-list {
+    width: 50%;
+}
+
+.qr-link,
+.neo-subhead {
+    color: #fff;
+}
+
+.qr-result-container h2,
+.qr-reader h2 {
+    color: #FF9966;
+}
+
+ .qr-form,
+ .did-you-mean-wrap {
+    background-color: skyblue;
+}
+
+.qr-decode-result {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.center-flex-wrap input,
+.wikipedia input {
+    text-indent: 5px;
+}
+
+.center-flex-wrap button,
+.neo-section button:hover,
+.neo-section button:focus {
+    background-color: #fff;
+}
+
+.center-flex-wrap button,
+.result,
+.qr-img,
+.epic-input p,
+.epic-btn,
+.epic-image,
+.neo-section img,
+.convert,
+.word-result,
+.neo-placeholder,
+.clear-result-btn {
+    margin: auto;
+}
+
+.center-flex-wrap button,
+.center-flex-wrap button:active,
+.summary,
+#epic-image a,
+.neo-list,
+#submit-btn:active,
+#clear-btn:active,
+.wikipedia button,
+.wikipedia button:active,
+.article-summary,
+.dictionary-btn:hover,
+.clear-word-result:hover,
+.qr-decode-result  {
+    color: black;
+}
+
+.center-flex-wrap button:hover {
+    background-color: black;
+    transform: scale(1.2);
+}
+
+.center-flex-wrap button:active {
+    transform: scale(.95);
+}
+
+.center-flex-wrap button:active,
+.news::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+} 
+
+.center-div,
+.flex-wrap {
+    justify-content: space-evenly;
+}
+
+.center-div,
+.neo-item  {
+    height: fit-content;
+}
+
+/* Did You Mean This? */
+.clear-btn:hover {
+    transform: scale(1.2);
+    transition: 2s ease;
+} 
+
+ .clear-btn:active {
+     transition: 0.5ms; 
+}
+    
+.clear-btn:active,
+.fetch-neo-btn:active {
+    transform: scale(1);
+}
+
+/* *******Bottom Div****** */
+.bottom {
+    margin-top: 100px;
+}
+
+/* Currency Converter */
+.currency-converter {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHltcnp4YzN5OG1tbmxhazB2N2lzOHQ2NzE4OGloOGh4MGxkdG9oaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LdOyjZ7io5Msw/giphy.gif");
+    box-shadow: 0 0 15px;
+}
+
+.currency-converter,
+.dictionary-section,
+.wikipedia {
+    width: 30%;
+}
+
+.currency-converter,
+.word-definition {
+    letter-spacing: 1px;
+}
+
+.currency-converter,
+.dictionary-section,
+.news-section,
+.epic-header img,
+.epic,
+.neo-section {
+    background-position: center;
+}
+
+.crypto,
+.currency-converter,
+.currency-heading,
+.currency-subheading,
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.result,
+.word-result,
+.dictionary-section,
+.dictionary-input,
+.dictionary-btn,
+.news-section,
+.news-input,
+.search-news-btn,
+.clear-news-btn,
+.news,
+.skeleton,
+.loading-skeleton,
+.qr-result-container,
+.qr-form,
+.center-flex-wrap input,
+.center-flex-wrap button,
+.qr-reader,
+.did-you-mean-wrap,
+.epic-date input,
+.epic-header img,
+.epic-header,
+.epic-heading,
+.epic-btn,
+.epic-image,
+.epic,
+.neo-header,
+.neo-section img,
+.neo-list,
+#neo-section button,
+.neo-section input,
+.neo-section,
+.article-summary,
+.wikipedia input,
+.wikipedia button,
+.qr-decode-result,
+.clear-epic-btn,
+.clear-result-btn,
+.clear-word-result  {
+   border-radius: 4px;
+}
+
+.amount {
+    text-indent: 15px;
+}
+
+.currency-heading,
+.currency-subheading,
+.result {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.currency-heading,
+.currency-subheading {
+    letter-spacing: 1.2px;  
+    text-shadow: 0 0 greenyellow;
+}
+
+.currency-heading,
+.currency-subheading,
+.result {
+    padding: 5px 10px;
+}
+
+.currency-heading,
+.currency-subheading,
+.news-link,
+.loading-skeleton,
+.qr-link,
+.did-you-mean-wrap,
+.epic-input p,
+.epic-subheading,
+.epic-heading,
+.neo-subhead,
+.qr-decode-result {
+    text-align: center;
+}
+
+.currency-subheading,
+.result,
+.summary,
+.epic-subheading,
+.neo-item,
+.neo-subhead,
+.clear-result-btn  {
+    font-size: 12px;
+}
+
+.currency-subheading > span {
+    color: greenyellow;
+    margin-right: 2px;
+}
+
+.currency-subheading > span,
+.article-summary {
+    font-size: 16px;
+}
+
+.currency-subheading > span,
+.currency-form,
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.result,
+.center-div,
+.search-news-title,
+.search-news-btn,
+.clear-news-btn,
+.clear-news-btn,
+.news-link,
+.loading-skeleton,
+.qr-form label,
+.center-flex-wrap input,
+.center-flex-wrap button,
+.qr-reader,
+.summary,
+.epic-date input,
+.epic-input p,
+.epic-subheading,
+.epic-heading,
+#epic-image a:hover,
+#epic-image a:focus,
+.epic-btn,
+.neo-item,
+.neo-subhead,
+.neo-placeholder,
+#neo-section button,
+.neo-section input,
+#loading,
+.wikipedia button,
+.wikipedia input,
+.clear-epic-btn,
+.clear-result-btn  {
+    font-weight: bold;
+}
+
+.currency-form {
+    text-shadow: 0 0 5px green;
+}
+
+.currency-form,
+.qr-link,
+.summary {
+    margin-top: 10px;
+}
+
+.currency-form,
+.news-section,
+.qr-result-container,
+.qr-form,
+ .qr-reader {
+    display: grid;
+}
+
+.currency-form,
+.news-section,
+.dictionary-section,
+.neo-item,
+.neo-input-wrap  {
+    gap: 5px;
+}
+
+.currency-form,
+.result,
+ .center-div,
+ .news-section,
+ .qr-result-container,
+ .qr-reader,
+ .wikipedia,
+ .globe  {
+    justify-content: center;
+}
+
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.epic-subheading {
+    opacity: .95;
+}
+
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.dictionary-input,
+.dictionary-btn,
+.news-input,
+.search-news-btn,
+.clear-news-btn,
+.center-flex-wrap input,
+.center-flex-wrap button,
+.epic-date input,
+.epic-btn,
+#neo-section button,
+.neo-section input,
+.wikipedia button,
+.wikipedia input,
+.clear-epic-btn,
+.clear-result-btn {
+  border: none;
+}
+
+.currency-converter,
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.dictionary-input,
+.dictionary-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.result {
+    height: 30px;
+}
+
+.from-currency,
+.to-currency,
+.amount,
+.convert,
+.result,
+.epic-date input {
+    width: 200px;
+}
+
+.convert {
+    width: 50%;
+}
+
+.convert,
+.convert:active {
+    background-color: rgba(0, 255, 0);
+}
+
+.convert:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgba(0, 255, 0);
+}
+
+.convert:active {
+    transform: scale(.75);
+    color: rgb(0, 0, 0);
+}
+
+.currency-converter form {
+    margin-top: 70px;
+}
+
+.dictionary-btn:active {
+    transform: scale(1);
+}
+
+.currency-converter select:hover,
+.currency-converter select:focus,
+.currency-converter input:hover,
+.currency-converter input:focus {
+    opacity: 1;
+}
+
+.result {
+    height: 80px;
+}
+
+.clear-result-btn {
+    background: rgb(0, 255, 0);
+}
+
+.clear-result-btn:hover,
+.clear-result-btn:focus {
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+
+.clear-result-btn:active,
+.clear-word-result:active,
+.dictionary-btn:active{
+    transform: scale(0.75);
+}
+
+.result,
+.dictionary-btn,
+#neo-section button {
+    margin-top: 5px;
+}
+
+/* News Section */
+.news-section {
+    align-items: start;
+    padding: 10px 20px;
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnFwbXh3MzJ5c3ZpZHAzZnB1ZWd1bnoxcjZtdzdob3k0ZWNycHpycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lXiRLb0xFzmreM8k8/giphy.gif");
+}
+
+.news-section,
+.new-section p {
+    width: 30vw;
+}
+
+.search-news-title {
+    border: 2px double;
+    color: #10465C;
+}
+
+.search-news-title,
+.summary,
+#neo-section h1,
+.neo-item ,
+.neo-section h1,
+.epic-heading,
+.qr-decode-result,
+.article-summary,
+.article-summary   {
+    text-shadow: none;
+}
+
+.search-news-title,
+.wiki-image {
+    border-radius: 2px;
+}
+
+.search-news-title,
+#news::-webkit-scrollbar-track,
+.summary,
+.epic-header,
+.epic-btn:hover,
+.neo-header,
+.neo-section h1,
+.wikipedia button,
+.wikipedia button:active,
+.article-summary,
+.clear-epic-btn:hover,
+.clear-epic-btn:focus   {
+    background: white;
+}
+
+.search-news-title {
+    font-style: oblique;
+}
+
+.search-news-btn,
+.clear-news-btn {
+    background-color: #1A4756;  
+}
+
+.search-news-btn:hover,
+.search-news-btn:focus,
+.clear-news-btn:hover,
+.clear-news-btn:focus {
+    background-color: white;
+    color: #1A4756;
+}
+
+.search-news-btn:active,
+.clear-news-btn:active {
+    transform: scale(.75);
+    background-color: #1A4756;
+    color: white;
+}
+
+.globe {
+    font-size: 50px;
+    font-style:normal;
+}
+
+.summary,
+.qr-decode-result {
+    width: 80%;
+}
+
+button,
+a  {
+    cursor: pointer;
+}
+
+.news,
+.loading-skeleton {
+    height: 50vh;
+}
+
+.news-title {
+    text-shadow: 0 0 2px;
+    border-left: 5px solid;
+    padding-left: 5px;
+}
+
+.news-title:hover,
+.news-title:focus {
+    color: red;
+}
+
+.qr-img ,
+.qr-link,
+.news-link,
+.epic-btn,
+.neo-section img,
+.fetch-neo-btn {
+    display: block;
+}
+
+.qr-link,
+.news-link,
+#epic-image a,
+.neo-item a {
+    text-decoration: none;
+}
+
+.news-link:hover,
+.news-link:focus {
+    color: skyblue;
+}
+
+.word::first-letter,
+.news-link:active {
+    text-transform: capitalize;
+}
+
+.news-link:visited {
+    color: #B3B3B3;
+}
+
+/* Skeleton Animation */
+
+/* Skeleton loader styles */
+.skeleton {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton-title {
+    width: 60%;
+    height: 20px;
+}
+
+.skeleton-line {
+    height: 15px;
+}
+
+/* Shimmer effect */
+.skeleton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+    animation: shimmer 1.5s infinite;
+}
+
+.skeleton::before,
+.epic-heading,
+.epic-image img,
+.epic-image,
+.flex-wrap {
+    height: 100%;
+}
+
+.skeleton::before,
+.epic-header img {
+    width: 150px;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.loading-skeleton {
+    display: none;
+    padding: 1em 2em;
+}
+
+.news::-webkit-scrollbar,
+#summary::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px; 
+} 
+
+.news::-webkit-scrollbar-track:hover {
+    background: #0F253E;
+}
+
+.news::-webkit-scrollbar-thumb,
+#summary::-webkit-scrollbar-track:hover,
+#summary::-webkit-scrollbar-thumb  {
+  background-color: #0F253E;
+}
+
+.news::-webkit-scrollbar-thumb,
+#summary::-webkit-scrollbar-thumb {
+    border: 3px solid #f1f1f1; 
+}
+
+.news::-webkit-scrollbar-thumb,
+#summary::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+}
+
+#loading {
+    color: #0d3b66;
+    margin-top: 25px;
+}
+
+#loading,
+#loading span {
+    font-size: 18px;
+}
+
+#loading span {
+    animation: dot-blink 1.5s infinite ease-in-out;
+}
+
+#dot1 {
+    animation-delay: 0s;
+}
+
+#dot2 {
+    animation-delay: 0.3s;
+}
+
+#dot3 {
+    animation-delay: 0.6s;
+}
+
+@keyframes dot-blink {
+    0%, 20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Wikipedia */
+.wikipedia {
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTlqOGxzZGhjZGh2ZGtscTd3cm45Y290NXhnbWs5MjlpZTdmdnhyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AR29ABYBYlWNkpALCP/giphy.gif');
+    background-size: 100% 100%;
+}
+
+.wikipedia button:hover {
+    transform: scale(1.1);
+}
+
+.wikipedia button:hover,
+.article-summary:hover {
+    background: black;
+}
+
+.wikipedia button:active {
+    transform: scale(.75);
+}
+
+.summary {
+    height: 300px;
+    overflow: scroll;
+    font-family: Arial;
+}
+
+.wiki-image {
+    width: 70%;
+    height: 40%;
+}
+
+/* Dictionary Section */
+.dictionary-section {
+    background: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjBwMmt4ZjdlM3dqdnZmNGt2MG4yaGEwOTg0OGU2aW01bm1pMjNnZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/12qxR8tbj3qvq23V7z/giphy.gif');
+    box-shadow: 0 0 15px #93FBFF;       
+}
+
+.dictionary-section,
+.dictionary-btn {
+    font-weight: 400;
+}
+
+.dictionary-section,
+.dictionary-input {
+    color: #0F253E;
+}
+
+.dictionary-section,
+.dictionary-input,
+.dictionary-btn {
+    font-family: "Voces", sans-serif;
+}
+
+.dictionary-input {
+    width: 90%;
+    box-shadow: 0 0 5px purple;
+}
+
+.dictionary-input::placeholder {
+    color: rgba(0, 0, 100, .35);
+}
+
+.dictionary-input:focus {
+    outline: 2px solid green;
+}
+
+.clear-word-result,
+.dictionary-btn {
+    box-shadow: 0 0 5px purple;
+    font-size: 0.95rem;   
+    text-shadow: 0 0 3px whitesmoke;
+}
+
+.clear-word-result,
+.dictionary-btn,
+.word-definition > span {
+    letter-spacing: 2px;  
+} 
+
+.clear-word-result,
+.dictionary-btn,
+.word-result {
+    color: #93FBFF;
+}
+
+.clear-word-result,
+.dictionary-btn,
+.search-news-title,
+.search-news-btn,
+.clear-news-btn,
+.clear-news-btn,
+.news,
+.qr-result-container,
+.qr-form,
+.center-flex-wrap input,
+.center-flex-wrap button,
+.qr-reader,
+.did-you-mean-wrap,
+.did-you-mean-wrap input,
+.summary,
+.epic-date input,
+.epic-input p,
+.epic-subheading,
+.epic-btn,
+.neo-item,
+.neo-subhead,
+.neo-list,
+#neo-section button,
+.neo-section input,
+.currency-converter select,
+.article-summary,
+.wikipedia input,
+.wikipedia button,
+.clear-epic-btn,
+.clear-result-btn {
+    padding: .5em 1em;
+}
+
+.clear-word-result {
+    width: 180px;
+}
+
+.clear-word-result,
+.dictionary-btn,
+.search-news-btn,
+.clear-news-btn,
+.news-link:hover,
+.news-link:focus,
+.epic-btn,
+.wikipedia button,
+.convert,
+.clear-epic-btn {
+    text-transform: uppercase;
+}
+
+.dictionary-btn:hover,
+.clear-word-result:hover {
+    background-color: #93FBFF;
+}
+
+.word-result {
+    text-shadow: 0 0 0 white;
+    padding: .75em 1em;
+    height: 50%;
+    width: 85%;
+    box-shadow: 0 0 15px purple;
+}
+
+.clear-word-result,
+.dictionary-btn,
+.word-result,
+.news {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.center-flex-wrap button,
+.word-result > p,
+.word-result > h4 {
+    width: fit-content;
+}
+
+.word {
+    letter-spacing: 5px;
+}
+
+.word-definition {
+    line-height: 2;
+}
+
+.word-definition,
+.search-news-btn,
+.clear-news-btn,
+.news-link {
+    color: whitesmoke;
+}
+
+.word-definition::first-letter,
+.word::first-letter  {
+    color: #90B7E4;
+}
+
+.word-definition::first-letter,
+.search-news-title,
+.news-link span {
+    font-size: 1.5rem;
+}
+
+.word::first-letter {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+
